@@ -5,7 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".DetailActivity"
+    tools:context=".ui.DetailActivity"
     tools:showIn="@layout/activity_detail">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tvFileName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
